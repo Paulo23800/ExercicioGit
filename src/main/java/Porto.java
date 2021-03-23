@@ -43,7 +43,7 @@ public class Porto {
 
     /**
      *
-     * @param n
+     * @param n Objeto Classe Navio
      * @return Novo Navio
      */
     public void novoNavio(Navio n){

@@ -23,7 +23,7 @@ public class Navio {
 
     /**
      *
-     * @return
+     * @return 
      */
     public String getMatricula() {
         return matricula;

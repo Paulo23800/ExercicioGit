@@ -63,6 +63,11 @@ public class Porto {
             ctNavios++;
         }
         }
+
+    /**
+     *
+     * @return 
+     */
     public float getCapacidadeTotal(){
         float total = 0;
         for(int i=0; i<ctNavios; i++){
@@ -74,6 +79,10 @@ public class Porto {
         return total;
     }
     
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         Porto porto = new Porto(10);
         Petroleiro petro1 = new Petroleiro("1234"); petro1.setCarga(200);

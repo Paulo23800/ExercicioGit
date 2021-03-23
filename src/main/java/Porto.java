@@ -14,8 +14,8 @@ public class Porto {
     private Navio[] navios;
 
     /**
-     *
-     * @param noMaxNavios
+     * contrutor da classe porto
+     * @param noMaxNavios / Numero maximo de Navios
      */
     public Porto(int noMaxNavios) {
         this.noMaxNavios = noMaxNavios;

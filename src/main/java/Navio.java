@@ -23,7 +23,7 @@ public class Navio {
 
     /**
      *
-     * @return 
+     * @return matricula
      */
     public String getMatricula() {
         return matricula;
@@ -31,7 +31,7 @@ public class Navio {
 
     /**
      *
-     * @return
+     * @return nome
      */
     public String getNome() {
         return nome;
@@ -39,7 +39,7 @@ public class Navio {
 
     /**
      *
-     * @return
+     * @return comprimento
      */
     public float getComprimento() {
         return comprimento;
@@ -47,7 +47,7 @@ public class Navio {
 
     /**
      *
-     * @param nome
+     * @param nome 
      */
     public void setNome(String nome) {
         this.nome = nome;

@@ -21,7 +21,7 @@ public class Petroleiro extends Navio {
 
     /**
      *
-     * @return
+     * @return Carga
      */
     public float getCarga() {
         return carga;

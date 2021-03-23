@@ -22,7 +22,7 @@ public class PortaContentores extends Navio {
 
     /**
      *
-     * @return
+     * @return Numero de Contentores
      */
     public int getNoContentores() {
         return noContentores;
@@ -30,7 +30,7 @@ public class PortaContentores extends Navio {
 
     /**
      *
-     * @param noContentores
+     * @param Numero de Contentores
      */
     public void setNoContentores(int noContentores) {
         this.noContentores = noContentores;

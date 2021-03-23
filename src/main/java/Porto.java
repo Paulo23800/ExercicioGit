@@ -26,7 +26,7 @@ public class Porto {
     /**
      * Get the value of navios
      *
-     * @return the value of navios
+     * @return Numero  navios
      */
     public Navio[] getNavios() {
         return navios;
@@ -35,7 +35,7 @@ public class Porto {
     /**
      * Get the value of noMaxNavios
      *
-     * @return the value of noMaxNavios
+     * @return Numero maximo de Navios
      */
     public int getNoMaxNavios() {
         return noMaxNavios;
@@ -44,6 +44,7 @@ public class Porto {
     /**
      *
      * @param n
+     * @return Novo Navio
      */
     public void novoNavio(Navio n){
         if(ctNavios == noMaxNavios) {
@@ -66,7 +67,7 @@ public class Porto {
 
     /**
      *
-     * @return 
+     * @return Capacidade Total
      */
     public float getCapacidadeTotal(){
         float total = 0;

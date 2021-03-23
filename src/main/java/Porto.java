@@ -44,7 +44,7 @@ public class Porto {
     /**
      *
      * @param n Objeto Classe Navio
-     * @return Novo Navio
+     * @return Novo Navio / Verifica de o porto esta cheio.
      */
     public void novoNavio(Navio n){
         if(ctNavios == noMaxNavios) {
